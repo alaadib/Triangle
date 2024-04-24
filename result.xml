@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="TOP-PC" name="triangle.TriangleTest" skipped="0" tests="1" time="0.044" timestamp="2024-04-24T13:34:46">
+<testsuite errors="0" failures="0" hostname="TOP-PC" name="triangle.TriangleTest" skipped="0" tests="1" time="0.033" timestamp="2024-04-24T16:01:25">
   <properties>
     <property name="ant.library.dir" value="C:\Users\lojee\Downloads\apache-ant-1.10.14\lib" />
     <property name="ant.file.type" value="file" />
@@ -25,7 +25,7 @@
     <property name="java.version.date" value="2024-04-16" />
     <property name="java.home" value="C:\Program Files\Java\jdk-21" />
     <property name="file.separator" value="\" />
-    <property name="basedir" value="C:\Users\lojee\eclipse-workspace\triangle-master" />
+    <property name="basedir" value="C:\Users\lojee\eclipse-workspace\Triangle" />
     <property name="java.vm.compressedOopsMode" value="Zero based" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="ant.java.version" value="21" />
@@ -35,7 +35,7 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="java.runtime.version" value="21.0.3+7-LTS-152" />
     <property name="user.name" value="lojee" />
-    <property name="ant.file" value="C:\Users\lojee\eclipse-workspace\triangle-master\build.xml" />
+    <property name="ant.file" value="C:\Users\lojee\eclipse-workspace\Triangle\build.xml" />
     <property name="stdout.encoding" value="cp850" />
     <property name="path.separator" value=";" />
     <property name="os.version" value="10.0" />
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
     <property name="java.io.tmpdir" value="C:\Users\lojee\AppData\Local\Temp\" />
     <property name="java.version" value="21.0.3" />
-    <property name="user.dir" value="C:\Users\lojee\eclipse-workspace\triangle-master" />
+    <property name="user.dir" value="C:\Users\lojee\eclipse-workspace\Triangle" />
     <property name="os.arch" value="amd64" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="ant.home" value="C:\Users\lojee\Downloads\apache-ant-1.10.14\bin\.." />
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="java.class.version" value="65.0" />
   </properties>
-  <testcase classname="triangle.TriangleTest" name="test" time="0.004" />
+  <testcase classname="triangle.TriangleTest" name="test" time="0.003" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

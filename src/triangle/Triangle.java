@@ -25,4 +25,16 @@ public TriangleType getType()
 		return TriangleType.Scalene;
 		
 }
+
+public boolean isRight()
+{
+	boolean isright = false;
+	if ((l1*l1 + l2*l2) == l3*l3)
+		isright = true;
+	else if ((l1*l1 + l3*l3) == l2*l2)
+		isright = true;
+	else if ((l2*l2 + l3*l3) == l1*l1)
+		isright = true;
+	return isright;
+}
 }

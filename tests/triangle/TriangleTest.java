@@ -29,6 +29,12 @@ public class TriangleTest {
 		assertEquals(t1.getType(),TriangleType.Invalid);
 		t1=new Triangle (7,7,-1);
 		assertEquals(t1.getType(),TriangleType.Invalid);
+		t1=new Triangle (3,4,5);
+		assertEquals(t1.isRight(),true);
+		t1=new Triangle (5,4,3);
+		assertEquals(t1.isRight(),true);
+		t1=new Triangle (1,4,3);
+		assertEquals(t1.isRight(),false);
 	}
 	@After
 	public void fin()
